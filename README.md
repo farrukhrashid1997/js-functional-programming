@@ -30,3 +30,8 @@
 - This means, a function which is doing something to the input, and also changing something in the global memory, then its impure and it is a side effect. 
 - If for example the map functions takes an array and instead of creating the new array, mutates the original one, then its basically changing something in the global memory, this is an impure function.
 - We want to ensure that any data that is passed by reference to a function is not mutated. We want to ensure our purity.  
+
+**Closures**
+- Lexical Scoping is the feature of JS, which is why closures happen. The function would pick up all data around it before getting off the call stack. This is due to lexical scoping. 
+- Lexical scoping is the feature which allows backpacks (closure) to exist.
+- 
