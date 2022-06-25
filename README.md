@@ -34,4 +34,10 @@
 **Closures**
 - Lexical Scoping is the feature of JS, which is why closures happen. The function would pick up all data around it before getting off the call stack. This is due to lexical scoping. 
 - Lexical scoping is the feature which allows backpacks (closure) to exist.
+
+**Function Decorators:**
+
+- If you want a function to run only once, we can use closures to decorate the function to run only once. We can use the backpack to restrict it.
+- If are function which takes one input, and then two inputs need to sent, use decorators, this concept is called partial applications.  
+- We have the ramba library which uses ramba library. 
 - 
